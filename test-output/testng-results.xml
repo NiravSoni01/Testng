@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-04T14:07:25 EDT" name="Suite" finished-at="2023-10-04T14:08:18 EDT" duration-ms="53157">
+    <groups>
+    </groups>
+    <test started-at="2023-10-04T14:07:25 EDT" name="Test" finished-at="2023-10-04T14:08:18 EDT" duration-ms="53157">
+      <class name="Mazda.Mazda">
+        <test-method signature="firsttest()[pri:0, instance:Mazda.Mazda@28f2a10f]" started-at="2023-10-04T14:07:25 EDT" name="firsttest" finished-at="2023-10-04T14:08:18 EDT" duration-ms="53134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttest -->
+      </class> <!-- Mazda.Mazda -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
