@@ -3,11 +3,10 @@ package Mazda;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DriverCommand;
 import org.testng.annotations.Test;
 
 public class Mazda {
@@ -16,17 +15,18 @@ public void firsttest() throws Throwable {
 		
 	 
 		// 1) Open Chrome driver 
-	
+	    
 		WebDriver driver=new ChromeDriver();
 		
 
 	    driver.manage().deleteAllCookies();
 	    driver.navigate().refresh();
+	    driver.manage().window().setSize(new Dimension(1920, 1080));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
         driver.get("https://mazda.ca/en/");
         
-        driver.manage().window().maximize();
+       // driver.manage().window().maximize();
 		
 		Thread.sleep(1000);
 		
