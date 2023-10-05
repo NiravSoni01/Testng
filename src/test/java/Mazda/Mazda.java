@@ -21,7 +21,7 @@ public void firsttest() throws Throwable {
 
 	    driver.manage().deleteAllCookies();
 	    driver.navigate().refresh();
-	    driver.manage().window().setSize(new Dimension(1920, 1080));
+	 //   driver.manage().window().setSize(new Dimension(1920, 1080));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
         driver.get("https://mazda.ca/en/");
@@ -199,8 +199,8 @@ public void firsttest() throws Throwable {
 		driver2.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
         driver2.get("https://mazda.ca/en/");
-        
-        driver2.manage().window().maximize();
+        driver.manage().window().setSize(new Dimension(1440, 900));
+       // driver2.manage().window().maximize();
 	    
 	    
 	    
